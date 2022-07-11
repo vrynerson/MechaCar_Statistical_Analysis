@@ -3,7 +3,7 @@
 # Results
 ## Linear Regression to Predict MPG
 
-image 
+![MechaCar_mpg_linear_regression](https://user-images.githubusercontent.com/98570777/178185380-809021ba-40c9-4bae-95e0-4cc723915128.jpg)
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? </br>
  Vehicle length and ground clearance are variables/coefficients with non-random amount of variance based on their p-values being less than 0.05. The smaller the p-value, the more statistically significant the variable is. This leads to vehicle length and ground clearance having a significant impact on the mpg.
