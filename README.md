@@ -19,4 +19,9 @@ The r-squared value is 0.71. The r-squared value is a statistic to predict the v
 ![lot_summary](https://user-images.githubusercontent.com/98570777/178187881-b5e810df-1302-4a9c-9c94-891c871334b9.jpg)
 
 
-* The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+* The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not? </br>
+
+In the current manufacturing data, the specification of a maximum variance of 100 lbs per square inch is met in Lot 1 and Lot 2, but exceeds the parameter by 70.29 lb per square inch in Lot 3. Since the max PSI is 1542 and the min PSI is 1452, the range is a lot higher than Lot 1 and 2. The variance takes into account how far away data points are from the mean. A variance value of 170.29 is high compared to the other lots' 0.98 and 7.47. The high variance is indication that the PSI values are very spread out from the average of 1498.5 PSI.
+
+
+## T-Tests on Suspension Coils
