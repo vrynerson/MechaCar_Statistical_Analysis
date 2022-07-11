@@ -1,5 +1,8 @@
 # MechaCar_Statistical_Analysis
 
+# Overview
+AutosRUs needs data on roadblocks in their production for the MechaCar, their new prototype. Linear regression analysis, summary statistics, and t-tests were run to analyze their production issues.
+
 # Results
 ## Linear Regression to Predict MPG
 
@@ -38,3 +41,10 @@ The third test run was Lot 2 against the mean of 1500 PSI. If we are using the c
 
 ![lot_3_t_test](https://user-images.githubusercontent.com/98570777/178203954-52393c4a-f31b-4997-b2ee-d7c843fac424.jpg)</br>
 The fourth test run was Lot 3 against the mean of 1500 PSI. If we are using the common 0.05 percent p-value to gauge significance level, a p-value of 0.04 is statistically significant. There is sufficient evidence against the null hypothesis, so we reject the null hypothesis since there is a 4% chance the hypothesis could be correct.
+
+## Study Design: MechaCar vs Competition
+
+* What metric or metrics are you going to test?
+* What is the null hypothesis or alternative hypothesis?
+* What statistical test would you use to test the hypothesis? And why?
+* What data is needed to run the statistical test?
