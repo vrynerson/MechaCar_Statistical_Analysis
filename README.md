@@ -13,3 +13,10 @@ No, the slope will not be zero. Since the p-value is smaller than 0.05 for the c
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? </br>
 The r-squared value is 0.71. The r-squared value is a statistic to predict the variability of the dependent variable. In this case, this multiple linear regression model can explain 71% of the variability in the mpg of the Mecha Cars in this dataset. </br></br> The p-value of the multiple linear regression model is 5.35e-11, which is well under the significance threshold of 0.05. </br></br>However, of all the variables, there are only two significant ones, explained in the first question. This model predicts mpg of the MechaCars in this dataset well, but has evidence of overfitting. Overfitting is where this linear regression model works with the current dataset, but would not work with future datasets. 
+
+## Summary Statistics on Suspension Coils
+![total_summary](https://user-images.githubusercontent.com/98570777/178187868-733c9702-3f18-48a0-aa7f-58f0ed9c6a52.jpg)
+![lot_summary](https://user-images.githubusercontent.com/98570777/178187881-b5e810df-1302-4a9c-9c94-891c871334b9.jpg)
+
+
+* The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
