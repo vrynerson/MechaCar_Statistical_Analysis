@@ -52,6 +52,6 @@ The MechaCar will have no difference in mpg against its competitors in the city/
 The alternative hypothesis:
 The MechaCar will have a larger mpg against its competitors in the city/highway. 
 
-The statistical tests to run in this study would be multiple two-sample t-test to compare AutosRUs to other car manufacturing companies. There will be separate tests for city versus highway driving. This will test if the results are due to random chance or if they are significant.
+The statistical tests to run in this study would be multiple two-sample t-test and an ANOVA. The two-sample t-test would be to compare AutosRUs to other car manufacturing companies. There will be separate tests for city versus highway driving. This will test if the results are due to random chance or if they are significant. An ANOVA test would test the statistical difference between the two samples' distribution means using variance.
 
 The data needed to complete these tests are the average mpg for both city and highway driving for each type of vehicle the companies have. The data should be grouped by vehicle type (sedan, hatchback, truck, etc) so there are clear divides to make sure the data is not skewed by types of vehicles mixing.
