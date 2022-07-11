@@ -25,3 +25,16 @@ In the manufacturing data by lot, the specification of all the lots of a maximum
 
 
 ## T-Tests on Suspension Coils
+Four one-sample t-tests were run to analyze the statistical difference between the observed samle mean and its presumed population mean.
+
+![t_test_mu_1500](https://user-images.githubusercontent.com/98570777/178203111-ec579398-d501-485d-a1c2-498a67310a55.jpg) </br>
+The first test run was on the entire dataset for testing PSI against its mean of 1500 PSI. If we are using the common 0.05 percent p-value to gauge significance level, a p-value of 0.06 is above the significance level. There is not sufficient evidence to fail to reject the null hypothesis; the two means are statistically similar.
+
+![lot_1_t_test](https://user-images.githubusercontent.com/98570777/178203644-74f59b4d-4fb1-4109-a3f2-17a5e70a6561.jpg)</br>
+The second test run was Lot 1 against the mean of 1500 PSI. If we are using the common 0.05 percent p-value to gauge significance level, a p-value of 1 is well above the significance level. There is not sufficient evidence to fail to reject the null hypothesis; the two means are statistically similar.
+
+![lot_2_t_test](https://user-images.githubusercontent.com/98570777/178203802-8fcc3683-f84e-416f-906e-f9b683a6cbec.jpg)</br>
+The third test run was Lot 2 against the mean of 1500 PSI. If we are using the common 0.05 percent p-value to gauge significance level, a p-value of 0.6 is above the significance level. There is not sufficient evidence to fail to reject the null hypothesis; the two means are statistically similar.
+
+![lot_3_t_test](https://user-images.githubusercontent.com/98570777/178203954-52393c4a-f31b-4997-b2ee-d7c843fac424.jpg)</br>
+The fourth test run was Lot 3 against the mean of 1500 PSI. If we are using the common 0.05 percent p-value to gauge significance level, a p-value of 0.04 is statistically significant. There is sufficient evidence against the null hypothesis, so we reject the null hypothesis since there is a 4% chance the hypothesis could be correct.
