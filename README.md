@@ -9,7 +9,7 @@ AutosRUs needs data on roadblocks in their production for the MechaCar, their ne
 ![MechaCar_mpg_linear_regression](https://user-images.githubusercontent.com/98570777/178185380-809021ba-40c9-4bae-95e0-4cc723915128.jpg)
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? </br>
- Vehicle length and ground clearance are variables/coefficients with non-random amount of variance based on their p-values being less than 0.05. The smaller the p-value, the more statistically significant the variable is. This leads to vehicle length and ground clearance having a significant impact on the mpg.
+Vehicle length and ground clearance are variables/coefficients with non-random amount of variance based on their p-values being less than 0.05. The smaller the p-value, the more statistically significant the variable is. This leads to vehicle length and ground clearance having a significant impact on the mpg.
 
 * Is the slope of the linear model considered to be zero? Why or why not?</br>
 No, the slope will not be zero. Since the p-value is smaller than 0.05 for the coefficients vehicle length and ground clearance, there is a significant relationship. There is sufficient evidence to reject the null hypothesis of the slope being zero.
@@ -44,7 +44,14 @@ The fourth test run was Lot 3 against the mean of 1500 PSI. If we are using the 
 
 ## Study Design: MechaCar vs Competition
 
-* What metric or metrics are you going to test?
-* What is the null hypothesis or alternative hypothesis?
-* What statistical test would you use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+With ever-rising gas prices, miles per gallon (mpg) on highway and in the city are some of the first thoughts people have when purchasing a car. Testing how the MechaCar stacks up to its competitors would be important information to have when customers buy a car from AutosRUs.
+
+The null hypothesis:
+The MechaCar will have no difference in mpg against its competitors in the city/highway. 
+
+The alternative hypothesis:
+The MechaCar will have a larger mpg against its competitors in the city/highway. 
+
+The statistical tests to run in this study would be multiple two-sample t-test to compare AutosRUs to other car manufacturing companies. There will be separate tests for city versus highway driving. This will test if the results are due to random chance or if they are significant.
+
+The data needed to complete these tests are the average mpg for both city and highway driving for each type of vehicle the companies have. The data should be grouped by vehicle type (sedan, hatchback, truck, etc) so there are clear divides to make sure the data is not skewed by types of vehicles mixing.
